@@ -5,7 +5,7 @@ SATURN_SIZE = (220, 190)
 
 class Saturn:
     def __init__(self):
-        saturn = pygame.image.load('resources/Untitled.png').convert()
+        saturn = pygame.image.load('resources/saturn.png.png').convert()
         self.saturn = pygame.transform.scale(saturn, SATURN_SIZE)
 
     def draw(self, surface):
