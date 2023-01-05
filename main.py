@@ -10,7 +10,6 @@ from stars import Star
 from saturn import Saturn
 
 DISPLAY_SIZE = (1920, 1080)
-
 STAR_SIZE = (20, 20)
 
 
@@ -19,7 +18,7 @@ def init():
     surface = pygame.display.set_mode(DISPLAY_SIZE)
 
     # star
-    star = Star(40)
+    star = Star(41)
     star.draw(surface)
 
 
